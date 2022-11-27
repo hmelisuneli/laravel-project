@@ -1,8 +1,8 @@
 @extends('layouts.app-master')
 
 @section('content')
-    
-    <h1 class="mb-3">Laravel 8 CRUD Operations with Example - codeanddeploy.com</h1>
+
+    <h1 class="mb-3">Laravel</h1>
 
     <div class="bg-light p-4 rounded">
         <h1>Users</h1>
@@ -10,7 +10,7 @@
             Manage your users here.
             <a href="{{ route('users.create') }}" class="btn btn-primary btn-sm float-right">Add new user</a>
         </div>
-        
+
         <div class="mt-2">
             @include('layouts.partials.messages')
         </div>
@@ -22,7 +22,7 @@
                 <th scope="col" width="15%">Name</th>
                 <th scope="col">Email</th>
                 <th scope="col" width="10%">Username</th>
-                <th scope="col" width="1%" colspan="3"></th>    
+                <th scope="col" width="1%" colspan="3"></th>
             </tr>
             </thead>
             <tbody>
